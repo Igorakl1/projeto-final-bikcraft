@@ -54,6 +54,11 @@
 
 .bicicletas a {
   place-self: end;
+  transition: transform 0.3s;
+}
+
+.bicicletas a.botao:hover {
+  transform: scale(1.07);
 }
 
 .bicicletas li {
